@@ -16,12 +16,12 @@
   --background-tertiary-color: #f5f5f5;
 
   /* cores de textos */
-  --text-primary-color: #222222;
-  --text-secondary-color: #ffffff;
+  --text-body-color: #222222;
+  --text-menu-color: #ffffff;
 
   /* pesos das fontes */
   --menu-text-weight: 500;
-  --title-highlight-weight: 700;
+  --highlight-text-weight: 700;
   --text-weight: 400;
 }
 
