@@ -99,7 +99,7 @@ header input:checked ~ nav {
 
 /* layout para desktop >=1920px de tela*/
 @media screen and (min-width: 1920px) {
-  header{
+  header {
     padding: 37px 225px;
   }
 }
