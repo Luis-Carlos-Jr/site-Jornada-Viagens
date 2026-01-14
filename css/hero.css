@@ -1,0 +1,50 @@
+/* hero image */
+.hero div {
+  background-image: url(../img/hero-mobile.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+/* texto de apresentação */
+.hero h2 {
+  padding: 88px 24px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+/* layout para tablet */
+@media screen and (min-width: 768px) {
+  .hero div {
+    background-image: url(../img/hero-tablet.jpg);
+    height: 620px;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}
+
+/* layout para desktop >=1440px */
+@media screen and (min-width: 1440px) {
+  .hero div {
+    background-image: url(../img/hero-desktop.jpg);
+    height: 620px;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 104px 120px;
+  }
+}
+
+/* layout para descktop >=1920px */
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 104px 255px;
+  }
+}
