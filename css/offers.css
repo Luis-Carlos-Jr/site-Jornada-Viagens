@@ -1,35 +1,52 @@
-.offers-grid{
+.offers-grid {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  position: relative;
 }
 
 .offer-card {
-  background-position: center;
-  background-size: cover;
-  height: 288px;
-  color: var(--text-menu-color);
-  border-radius: 16px;
   padding: 24px 16px;
+  width: 312px;
+  height: 288px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  border-radius: 16px;
+  color: var(--text-menu-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
-.offer-card header p{
+.offer-card::before {
+  content: "";
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 288px;
+}
+
+.offer-card > * {
+  z-index: 1;
+}
+
+.offer-card header p {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--text-weight);
 }
 
-.offer-card h3{
+.offer-card h3 {
   font-weight: var(--highlight-text-weight);
   font-size: 40px;
   margin: 8px auto 24px;
 }
 
-.offer-value{
+.offer-value {
   font-weight: var(--highlight-text-weight);
   font-size: 32px;
   margin-bottom: 24px;
@@ -50,4 +67,3 @@
 .offer-card.card-4 {
   background-image: url(../img/bg-card-manaus.jpg);
 }
-

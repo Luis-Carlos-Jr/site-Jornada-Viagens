@@ -73,4 +73,5 @@ section {
   line-height: 64px;
   font-weight: var(--highlight-text-weight);
   font-size: 20;
+  text-align: center;
 }
