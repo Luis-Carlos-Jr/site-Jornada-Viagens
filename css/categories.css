@@ -39,7 +39,11 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .categorie-card{
+  .categorie-card {
     width: 281px;
+  }
+
+  .categorie-card:hover {
+    background-color: var(--background-highlight-color);
   }
 }
