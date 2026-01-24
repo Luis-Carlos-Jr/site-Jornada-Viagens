@@ -1,0 +1,45 @@
+.destination-grid
+{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.destination-card div {
+  height: 360px;
+  width: 312px;
+  background-position: center;
+  background-size: cover;
+}
+
+.destination-card.card-1 div {
+  background-image: url(../img/tokyo-mobile.jpg);
+}
+
+.destination-card.card-2 div {
+  background-image: url(../img/osaka-mobile.jpg);
+}
+
+.destination-card h4 {
+  margin-top: 24px;
+  font-weight: var(--highlight-text-weight);
+  font-size: 28px;
+}
+
+.destination-card p{
+  text-align: center;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.destination-card footer {
+  width: 100%;
+}
