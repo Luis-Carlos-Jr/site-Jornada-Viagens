@@ -42,6 +42,10 @@ section {
   margin: 0 auto;
 }
 
+.hero{
+  width: 100%;
+}
+
 .section-title {
   display: flex;
   flex-direction: column;
