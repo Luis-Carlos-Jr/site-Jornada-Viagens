@@ -1,5 +1,4 @@
-.destination-grid
-{
+.destination-grid {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -33,13 +32,40 @@
   font-size: 28px;
 }
 
-.destination-card p{
+.destination-card p {
   text-align: center;
   font-weight: var(--text-weight);
   font-size: 20px;
   line-height: 32px;
 }
 
-.destination-card footer {
-  width: 100%;
+.destination-card a {
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-card div {
+    width: 648px;
+    height: 452px;
+  }
+
+  .destination-card a {
+    width: 280px;
+  }
+
+  .destination-card footer {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .destination-grid{
+    flex-direction: row;
+  }
+
+  .destination-card div {
+    width: 588px;
+    height: 452px;
+  }
 }

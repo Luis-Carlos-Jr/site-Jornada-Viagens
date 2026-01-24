@@ -74,8 +74,9 @@ section {
   text-decoration: none;
   background-color: var(--button-color);
   border-radius: 16px;
-  width: 100%;
-  line-height: 64px;
+  min-width: 280px;
+  line-height: 32px;
+  padding: 16px 8px;
   font-weight: var(--highlight-text-weight);
   text-align: center;
   font-size: 20px;
@@ -89,6 +90,8 @@ section {
   section {
     width: 648px;
   }
+
+  
 }
 
 @media screen and (min-width: 1440px) {

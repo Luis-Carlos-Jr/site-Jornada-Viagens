@@ -23,7 +23,7 @@
   }
 
   .hero h2 {
-    padding: 88px 60px;
+    padding: 88px 60px 0 60px;
     font-size: 32px;
     line-height: 1.5;
   }
@@ -38,7 +38,7 @@
   }
 
   .hero h2 {
-    padding: 104px 120px;
+    padding: 104px 120px 0 120px;
   }
 }
 
