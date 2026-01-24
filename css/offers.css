@@ -70,3 +70,17 @@
 .offer-card.card-4 {
   background-image: url(../img/bg-card-manaus.jpg);
 }
+
+@media screen and (min-width: 768px) {
+  .offers-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offer-card {
+  padding: 24px 0;
+  width: 588px;
+}
+}
