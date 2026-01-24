@@ -1,0 +1,53 @@
+.offers-grid{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.offer-card {
+  background-position: center;
+  background-size: cover;
+  height: 288px;
+  color: var(--text-menu-color);
+  border-radius: 16px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-card header p{
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+.offer-card h3{
+  font-weight: var(--highlight-text-weight);
+  font-size: 40px;
+  margin: 8px auto 24px;
+}
+
+.offer-value{
+  font-weight: var(--highlight-text-weight);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.offer-card.card-1 {
+  background-image: url(../img/bg-card-japao.jpg);
+}
+
+.offer-card.card-2 {
+  background-image: url(../img/bg-card-san-andreas.jpg);
+}
+
+.offer-card.card-3 {
+  background-image: url(../img/bg-card-paraiba.jpg);
+}
+
+.offer-card.card-4 {
+  background-image: url(../img/bg-card-manaus.jpg);
+}
+
