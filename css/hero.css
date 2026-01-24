@@ -7,7 +7,7 @@
 
 /* texto de apresentação */
 .hero h2 {
-  padding: 88px 24px;
+  padding: 88px 24px 0 24px;
   font-weight: var(--text-weight);
   font-size: 20px;
   line-height: 32px;
