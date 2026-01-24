@@ -36,3 +36,58 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+
+section {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.hero{
+  width: 100%;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 88px 0 32px;
+  gap: 18px;
+}
+
+.section-title h2 {
+  font-weight: var(--highlight-text-weight);
+  font-size: 32px;
+}
+
+.section-title hr {
+  background-color: var(--button-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
+
+.button {
+  display: inline-block;
+  color: var(--text-menu-color);
+  text-decoration: none;
+  background-color: var(--button-color);
+  border-radius: 16px;
+  width: 280px;
+  line-height: 64px;
+  font-weight: var(--highlight-text-weight);
+  font-size: 20;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
+}

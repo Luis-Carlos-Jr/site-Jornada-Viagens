@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-secondary-color);
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ header {
 }
 
 /* label que contém a imagem do menu */
-header label {
+.main-header label {
   display: flex;
 }
 
@@ -48,7 +48,7 @@ header label {
 }
 
 /* controla ativação do menu mobile */
-header input:checked ~ nav {
+.main-header input:checked ~ nav {
   display: block;
   position: absolute;
   top: 100%;
@@ -58,11 +58,11 @@ header input:checked ~ nav {
 
 /* layout para tablet >=768px de tela*/
 @media screen and (min-width: 768px) {
-  header {
+  .main-header {
     padding: 37px 60px;
   }
 
-  header label {
+  .main-header label {
     display: none;
   }
 
@@ -84,7 +84,7 @@ header input:checked ~ nav {
 
 /* layout para desktop >=1440px de tela*/
 @media screen and (min-width: 1440px) {
-  header {
+  .main-header {
     padding: 37px 120px;
   }
 
@@ -99,7 +99,7 @@ header input:checked ~ nav {
 
 /* layout para desktop >=1920px de tela*/
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 37px 225px;
   }
 }
