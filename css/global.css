@@ -13,7 +13,8 @@
   /* cores de fundo */
   --background-primary-color: #ffffff;
   --background-secondary-color: #000000;
-  --background-tertiary-color: #f5f5f5;
+  --background-tertiary-color: #E5E5E5;
+  --background-highlight-color: #D9D9D9;
 
   /* cores de textos */
   --text-body-color: #222222;
