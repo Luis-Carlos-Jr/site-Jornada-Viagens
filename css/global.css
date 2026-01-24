@@ -36,3 +36,29 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+
+section {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 88px 0 32px;
+  gap: 18px;
+}
+
+.section-title h3 {
+  font-weight: var(--highlight-text-weight);
+  font-size: 32px;
+}
+
+.section-title hr {
+  background-color: var(--button-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
